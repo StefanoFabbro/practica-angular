@@ -10,7 +10,7 @@ import { DbzService } from '../services/dbz.service';
 })
 export class AgregarComponent {
 
-  
+
   @Input() nuevo : Personaje = {
     nombre : '',
     poder : 0
@@ -33,6 +33,5 @@ export class AgregarComponent {
       poder: 0
     }
   }
-
 
 }
